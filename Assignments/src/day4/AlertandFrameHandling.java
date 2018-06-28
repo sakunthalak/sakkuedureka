@@ -17,7 +17,7 @@ public class AlertandFrameHandling {
 			
 			chrome.manage().window().maximize();
 			chrome.manage().deleteAllCookies();
-			chrome.get(url);
+			
 					
 			chrome.switchTo().frame("iframeResult");
 			chrome.findElementByTagName("using");
