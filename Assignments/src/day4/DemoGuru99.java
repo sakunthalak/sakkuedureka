@@ -12,7 +12,7 @@ public class DemoGuru99 {
 			guru99Project ch=new guru99Project();
 			
 			ch.InvokeBrowser();
-			ch.login("mngr131545", "ehahYta");
+			ch.login("mngr155143", "UhyzEvU");
 			ch.AddCustomer();
 			ch.AddNewCustomer();
 	String customerId = ch.getCustomerID();
