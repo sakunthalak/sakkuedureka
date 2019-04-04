@@ -20,8 +20,7 @@ public class CheckingAllLinks {
 //checking the status of each link is 200 or not
 	public static void verifyURLStatus(String URL) throws ClientProtocolException, IOException
 	{
-		HttpClient client=HttpClientBuilder.create().build()
-;
+		HttpClient client=HttpClientBuilder.create().build();
 		HttpGet request=new HttpGet(URL);
 		HttpResponse response=client.execute(request);
 		if(response.getStatusLine().getStatusCode()!=200)//==200 for valid links

@@ -19,12 +19,12 @@ WebDriver driver;
 //		driver.manage().window().maximize();
 //		driver.manage().timeouts().implicitlyWait(30	,TimeUnit.SECONDS);
 //		driver.get("http://newtours.demoaut.com/");
-	String[][] data=Excel.getData("testData.xlsx","Sheet1");
-				
-		for(int i=1;i<data.length;i++) {
-		
-		String username=data[i][1];
-		String password=data[i][2];
+	//String[][] data=Excel.getData("testData.xlsx","Sheet1");
+//				
+//		for(int i=1;i<data.length;i++) {
+//		
+//		String username=data[i][1];
+//		String password=data[i][2];
 //		driver.findElement(By.name("userName")).sendKeys(username);
 //		driver.findElement(By.name("password")).sendKeys(password);
 		
@@ -33,4 +33,4 @@ WebDriver driver;
 		
 	}
 
-}
+
